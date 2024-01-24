@@ -26,10 +26,10 @@ class Database extends Config
      */
     public array $default = [
         'DSN'      => '',
-        'hostname' => 'localhost',
-        'username' => '',
-        'password' => '',
-        'database' => '',
+        'hostname' => '178.128.244.159',
+        'username' => 'higorzica',
+        'password' => 'Olavo34763455@',
+        'database' => 'durabi91_portfolio',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
