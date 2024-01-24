@@ -26,7 +26,7 @@
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-2 flex-wrap gap-3 -m-4">
     <?php foreach ($projetos as $projeto): ?>
-        <div class="p-4 rounded-md" style="background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 30%, rgba(63,40,181,1) 62%, rgba(0,66,111,1) 100%);">
+        <div class="p-4 rounded-md border-solid border-2 border-white-900" style="background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 30%, rgba(63,40,181,1) 62%, rgba(0,66,111,1) 100%);">
             <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
               <img alt="team" class="flex-shrink-0 rounded-lg w-80 h-80 object-contain object-center sm:mb-0 mb-4" src="<?= base_url("projetos/" . $projeto->foto) ?>">
                 <div class="flex-grow sm:pl-8">
@@ -50,10 +50,8 @@
                                 </svg>
                             </a>
                         </span>
-                        <a href="<?= site_url("ver_projeto/" . $projeto->id) ?>" class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 mx-2 md:mt-0">Detalhes
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-                            <path d="M5 12h14M12 5l7 7-7 7"></path>
-                        </svg>
+                        <a href="<?= site_url("ver_projeto/" . $projeto->id) ?>" class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 mx-2 md:mt-0"> Detalhes 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" style="background-color: white;margin-left: 6px;"><path d="M10 20A10 10 0 1 0 0 10a10 10 0 0 0 10 10zM8.711 4.3l5.7 5.766L8.7 15.711l-1.4-1.422 4.289-4.242-4.3-4.347z"/></svg>
                         </a>
                 </div>
             </div>

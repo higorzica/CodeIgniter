@@ -2,7 +2,7 @@
   <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
     <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
     <img src="<?= base_url('assets/img/linux-header-icon.png') ?>" alt="">
-      <span class="ml-3 text-xl">Higor Zica Dev.</span>
+      <span class="ml-3 text-xl text-zinc-50">Higor Zica Dev.</span>
     </a>
     <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">&copy; Copyright <strong><span>Higor Zica</span></strong>. All Rights Reserved
       <a href="https://higorzicadev.com.br" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@higorzicadev</a>
